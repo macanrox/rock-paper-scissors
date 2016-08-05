@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock, Paper, Scissors</title>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
+    <script type="text/javascript" src="js/index.js" async></script>
+</head>
+
+<body>
+    <h1 align="center">Rock, Paper, Scissors</h1>
+    <div class="wrapper">
+        <div class="left">
+            <h3 align="center">Player</h3>
+            <button class="rpsButton" id="rock" value="rock" onclick="rps(this.id)">rock</button>
+            <button class="rpsButton" id="paper" value="paper" onclick="rps(this.id)">paper</button>
+            <button class="rpsButton" id="scissors" value="scissors" onclick="rps(this.id)">scissors</button>
+        </div>
+        <div class="center">
+            <table id="scoreboard" align="center">
+                <thead>
+                    <th>Win</th>
+                    <th>Loss</th>
+                    <th>Draw</th>
+                </thead>
+                <tbody>
+                    <td id="wins">0</td>
+                    <td id="losses">0</td>
+                    <td id="draws">0</td>
+                </tbody>
+            </table>
+        </div>
+        <div class="right">
+            <h3 align="center">Computer</h3>
+            <input type="text" id="computer">
+        </div>
+    </div>
+</body>
+
+</html>

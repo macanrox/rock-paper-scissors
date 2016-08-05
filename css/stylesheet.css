@@ -1,0 +1,39 @@
+#scoreboard {
+	border: 1px solid black;
+}
+
+h1 {
+	margin-bottom: 100px;
+}
+
+.wrapper {
+	text-align: center;
+	border: 1px solid black;
+	background-color: gray;
+	margin: 0 auto;
+}
+
+.left, .right, .center {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+}
+
+.left {
+	border: 2px solid blue;
+	overflow: auto;
+}
+
+.right {
+	border: 2px solid purple;
+	overflow: auto;
+}
+
+.center {
+	border: 2px solid red;
+	text-align: left;
+}
+
+th, td {
+	text-align: center;
+}
